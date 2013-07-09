@@ -1,81 +1,198 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Portfolio by nikkidahan</title>
+    <head>
+        <link href='http://fonts.googleapis.com/css?family=Dosis|Offside|Tulpen+One|Titillium+Web|Averia+Libre|Autour+One|Sintony|Metrophobic|Galdeano|Raleway' rel='stylesheet' type='text/css'>
+        <title> Nikki Dahan </title>
+        <meta name="description" content="Human Factors Engineering and Biomedical Sciences major at Tufts University.">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+<style>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Portfolio</h1>
-        <p></p>
+    a.tooltip {outline:none;text-decoration:none;}
+    a.tooltip strong {line-height:30px;}
+    a.tooltip > span 
+    {
+        padding: 10px 20px;
+      margin-top: 20px;
+	    margin-left: -85px;
+	
+	    opacity: 0;
+	    visibility: hidden;
+	    z-index: 10;	   
+	    position: absolute;
 
-        <p class="view"><a href="https://github.com/nikkidahan/portfolio">View the Project on GitHub <small>nikkidahan/portfolio</small></a></p>
+	    font-family: Arial;
+	    font-size: 12px;
+	    font-style: normal;  
+        	    
+	    -webkit-border-radius: 3px;
+	    -moz-border-radius: 3px;
+	    -o-border-radius: 3px;
+	    border-radius: 3px;
+	    
+	    
+        -webkit-box-shadow: 2px 2px 2px #999;
+	    -moz-box-shadow: 2px 2px 2px #999;		
+	    box-shadow: 2px 2px 2px #999;	    
+	    
+	    -webkit-transition-property:opacity, margin-top, visibility, margin-left;
+	    -webkit-transition-duration:0.4s, 0.3s, 0.4s, 0.3s;  
+	    -webkit-transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+	
+	    -moz-transition-property:opacity, margin-top, visibility, margin-left;
+	    -moz-transition-duration:0.4s, 0.3s, 0.4s, 0.3s;  
+	    -moz-transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+	
+	    -o-transition-property:opacity, margin-top, visibility, margin-left;
+	    -o-transition-duration:0.4s, 0.3s, 0.4s, 0.3s;  
+	    -o-transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+	
+	    transition-property:opacity, margin-top, visibility, margin-left;
+	    transition-duration:0.4s, 0.3s, 0.4s, 0.3s;  
+	    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+    }
+    
+    /*a.tooltip > span:hover,*/
+	a.tooltip:hover > span
+	{
+		opacity: 1;
+		text-decoration:none;
+		visibility: visible;
+		top:-21em;left:50%;
+		overflow: visible;
+		margin-top:50px;
+		display: inline;
+		margin-left: -60px;		
+	}
+/*
+	a.tooltip span b {
+    
+		width: 15px;
+		height: 15px;
+		
+		margin-left: 20px;
+		margin-top: -19px;
+			
+		display: inline;
+		position: absolute;
+
+		-webkit-transform: rotate(-45deg);
+		-moz-transform: rotate(-45deg);
+		-o-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+			
+		-webkit-box-shadow: inset -1px 1px 0 #fff;
+		-moz-box-shadow: inset 0 1px 0 #fff;
+		-o-box-shadow: inset 0 1px 0 #fff;
+		box-shadow: inset 0 1px 0 #fff;
+			
+		display: none\0/;
+		*display: none;
+	}*/
+    
+a.tooltip > span {
+	color: #000000; 
+		top:-21em;left:50%;
+text-align:center;
+	background: #ffffff;/*
+	background: -moz-linear-gradient(top, #C0C0C0 0%, #FFFFFF 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C0C0C0), color-stop(100%,#FFFFFF));
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#C0C0C0', endColorstr='#FFFFFF',GradientType=0 );*/
+	    
+	border: 1px solid #C0C0C0;	     
+}    
+/*	
+a.tooltip span b {
+
+	background: #FBF5E6;
+	border-top: 1px solid #CFB57C;
+	border-right: 1px solid #CFB57C;
+}  */  
 
 
-        <ul>
-          <li><a href="https://github.com/nikkidahan/portfolio/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/nikkidahan/portfolio/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/nikkidahan/portfolio">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+    body
+    {
+        background-color:#ffffff;
+    }
+    header
+    {
+        font-family:"raleway";
+        color:#2961b5;
+        font-size:80px;
+        position: relative;
+        top:90px;
+        left: 90px;
+    }
+    header2
+    {
+        font-family:"raleway";
+        color:#2961b5;
+        text-align:left;
+        font-size:30px;
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+    }
+     p.ex
+    {
+        position:relative;
+        left:90px;
+        width:500px;
+         font-family:"palatino";
+        color: black;
+        font-size: 17px;
+        top:110px;
+        }
+    link2
+    {
+        font-family:"raleway";
+        color:#2961b5;
+        font-size: 30px;
+        position: relative;     
+        top:120px;
+        left:90px;
+    }
+    a:link {color:#2961b5;text-decoration:none;}    /* unvisited link */
+    a:visited {color:#778899;text-decoration:none;} /* visited link */
+    a:hover {color:#FF6633;text-decoration:none;}   /* mouse over link */
+    a:active {color:#0000FF;text-decoration:none;}  /* selected link */
+    img 
+    {
+	max-width:720px;			
+	max-height:540px;
+    }	
+        </style>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+        
+    </head>
+    <body>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+  ga('create', 'UA-41762239-1', 'nikkidahan.com');
+  ga('send', 'pageview');
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+</script>
+    <header>nikki</header>  
+           <p class = "ex">
+    I'm a student at Tufts University majoring in <b>Human Factors Engineering</b> (Engineering Psychology) and <b>Biomedical Sciences</b>. I'm interested in user-centered design, and especially in brain-controlled prosthetics. I like 
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+    
+    <a href="#" class="tooltip"> 
+	dogs<span> <b></b><font face= "raleway" weight="900">Lucy and Darwin</font><img src="http://i878.photobucket.com/albums/ab347/screenameofnikki/IMG_0276-Version3.jpg" alt="dogs"></span></a>, cinnamon rolls, and 
+  
+<a href="#" class="tooltip"> 
+	building igloos<span> <b></b><img src="http://i878.photobucket.com/albums/ab347/screenameofnikki/167260_10150124644491972_1263147_n.jpg" alt="igloo"></span></a>.       <br><br>
+      </p><link2><a target=_self href="http://nikkidahan.tumblr.com/projects">projects</a> </link2>
+ 
+     <br><br>
+   <!-- <link2><a target=_self href="http://nikkidahan.tumblr.com/courses">courses</a> </link2>    
+       <br><br>-->
+       <link2><a target=_self href="http://nikkidahan.tumblr.com/resume">resume</a> </link2> <br><br>
+       <link2><a target=_self href="http://nikkidahan.tumblr.com/awards">awards</a> </link2><br><br>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/nikkidahan">nikkidahan</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-41762239-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-  </body>
-</html>
+       <link2><a target=_self href="http://nikkidahan.tumblr.com/contact">contact</a> </link2><br><br>
+       
+   </body>
+   
+   </html>
