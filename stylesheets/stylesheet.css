@@ -111,8 +111,8 @@ a.tooltip span b {
         color:#2961b5;
         font-size:80px;
         position: relative;
-       /* top:90px;
-        left: 90px;*/
+       top:90px;
+        left: 90px;
     }
     header2
     {
