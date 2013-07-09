@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+                <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+    	<a1>
+		<a target=_self href="http://nikkidahan.tumblr.com">home </a>  |   
+		<a target=_self href="http://nikkidahan.tumblr.com/projects">projects</a> |
+     		<a target=_self href="http://nikkidahan.tumblr.com/resume">resume</a>  |   
+    		<a target=_self href="http://nikkidahan.tumblr.com/awards">awards</a>  |   
+    		<a target=_self href="http://nikkidahan.tumblr.com/contact">contact me</a>
+    	</a1>
+
+    	<h2 style="border-bottom:1px solid #000;">resume</h2>
+
+	<br><br>
+
+	<a1>
+		<a target=_blank style="position:relative; top:-60px;" href="http://www.linkedin.com/pub/nikki-dahan/52/82a/300"> see my linkedin!  </a>
+    	<br><br>
+     	</a1>
+
+	<img style ="margin:10px; position:relative; left:90px; top:-60px;" src="http://i878.photobucket.com/albums/ab347/screenameofnikki/Resume-1.png" alt="Resume">
+
+</body>
+
+</html>
