@@ -1,11 +1,10 @@
-
 img
 {
 position:relative;
 left:90px;
   width: 320px;
     height: 240px;
-
+  margin:10px;
  -moz-transition:width 2s, height 2s, background-color 2s, -moz-transform 2s;
     -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
     -o-transition:width 2s, height 2s, background-color 2s, -o-transform 2s;
