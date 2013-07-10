@@ -101,6 +101,14 @@
         	position:relative;
         	left:90px;
 	}
+	p6
+	{
+		font-family:"raleway";
+    		font-weight:900;
+    		position:relative;
+    		left:0px;
+		text-align:center
+	}
 	a1
     	{
         	font-family:"raleway";
