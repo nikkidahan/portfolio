@@ -1,5 +1,5 @@
 
-  body
+	body
     	{
 		overflow-x: hidden;    	    	
 		background-color:#ffffff;
@@ -36,6 +36,15 @@
         	color:#2961b5;
         	text-align:left;
         	font-size:30px;		
+	}
+	h5
+	{
+		font-family:"raleway";
+        	color:#2961b5;
+        	position:relative;
+        	left:90px;
+        	font-size:30px;
+		font-weight:normal;
 	}    
 	p.one
     	{
@@ -52,6 +61,7 @@
     	    	font-family:"palatino";
         	color: black;
         	font-size: 17px;
+        	width:700px;
         	position:relative;
         	left:90px;
     	}
@@ -125,7 +135,11 @@
   		opacity:0.5;
  		filter:alpha(opacity=50); /* For IE8 and earlier */  
 	}
-
+ 	div.herc
+      	{
+          	position:relative;
+          	left: 150px;
+         }
   
 
 /*tooltip*/
