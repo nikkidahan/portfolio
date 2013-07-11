@@ -1,4 +1,3 @@
-
 	body
     	{
 		overflow-x: hidden;    	    	
@@ -89,6 +88,7 @@
     		font-weight:900;
     		position:relative;
     		left:90px;
+    		margin-top:0px;
     	}
     	p4
     	{
@@ -96,6 +96,8 @@
     		font-weight:900;
     		position:relative;
     		left:60px;
+    		margin-top:0px;
+
     	}
 	p5
 	{
