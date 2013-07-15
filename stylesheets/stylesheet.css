@@ -132,7 +132,8 @@
         	font-family:"raleway";
         	color:#2961b5;
         	font-size: 30px;
-        	position: relative;     
+        	position: relative;   
+        	font-weight:300;
         	top:60px;
     	    	left:90px;
     	}
