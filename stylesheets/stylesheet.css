@@ -261,3 +261,57 @@
     }
 
     
+/*projects*/
+
+h9 { 
+   position: relative; 
+bottom:-5px;
+left:0px;
+
+}
+
+h9 span { 
+   color: black; 
+   font-family: oxygen, Sans-Serif; 
+   letter-spacing: -.2px;  
+
+
+}
+
+
+.wrap {
+
+position:relative;
+left:-200px;
+top:-20px;
+    width: 900px;
+
+    margin: 0 auto;
+   }
+
+  .tint {
+    position: relative;
+    float: left;
+  margin-right:-5px;
+    cursor: pointer;
+  }
+  
+  .tint:before {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    background: none;
+    -moz-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+  }
+  
+  .tint:hover:before {
+        /*background: rgba(0,255,255, 0.3);*/
+background: rgba(51,153,255,.3)
