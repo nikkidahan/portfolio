@@ -313,8 +313,10 @@ top:-20px;
   }
   
   .tint:hover:before {
-        /*background: rgba(0,255,255, 0.3);*/
-background: rgba(51,153,255,.3)
+        /*background: rgba(0,255,255, 0.3);
+background: rgba(51,153,255,.3)*/
+opacity:.5;
+
 }
   .t2:hover:before {
     /*background: rgba(0,0,255, 0.3);*/
