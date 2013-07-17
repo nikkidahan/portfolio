@@ -312,10 +312,10 @@ top:-20px;
     transition: all .3s linear;
   }
   
-  .tint:hover:before img {
+  .tint:hover:before  {
         /*background: rgba(0,255,255, 0.3);
 background: rgba(51,153,255,.3)*/
-opacity:.5;
+background:rgba(225,225,225,.5);
 
 }
   .t2:hover:before {
