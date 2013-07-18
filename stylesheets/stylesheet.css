@@ -281,9 +281,10 @@ h9 span {
 
 .wrap {
 
-position:relative;
-left:-350px;
-top:-20px;
+position:absolute;
+left:70px;
+top:120px;
+
     width: 900px;
 
     margin: 0 auto;
@@ -356,3 +357,7 @@ background:rgba(225,225,225,.5);
 
   }			
     
+<<<<<<< HEAD
+
+=======
+>>>>>>> bd22e94e0e9c954e27039f40c09c41b2b2488550
