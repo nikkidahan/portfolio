@@ -314,50 +314,6 @@ top:120px;
   }
   
   .tint:hover:before  {
-        /*background: rgba(0,255,255, 0.3);
-background: rgba(51,153,255,.3)*/
-background:rgba(225,225,225,.5);
-
+	background:rgb(225,225,225);
+	background:rgba(225,225,225,.5);
 }
-  .t2:hover:before {
-    /*background: rgba(0,0,255, 0.3);*/
-  /*  background: rgba(255,102,0, 0.3);*/
-    background:rgba(225,225,225,.5);
-
-  }
-  
-  .t3:hover:before {
-/*
-    background: rgba(178,255,102, 0.3);*/
-   /* background: rgba(255,102,0, 0.3);*/
-    background:rgba(225,225,225,.5);
-
-
-  }
-  
-  .t4:hover:before {
-/*background: rgba(51,153,255,.3)*/
-background:rgba(225,225,225,.5);
-
-/*
-    background: rgba(255,0,240, 0.3);*/
-  }
-  
-  .t5:hover:before {
-/*background: rgba(51,153,255,.3)*/
-background:rgba(225,225,225,.5);
-
-/*
-    background: rgba(255,255,102, 0.3);*/
-  }
-  
-  .t6:hover:before {
-   /* background: rgba(255,102,0, 0.3);*/
-    background:rgba(225,225,225,.5);
-
-  }			
-    
-<<<<<<< HEAD
-
-=======
->>>>>>> bd22e94e0e9c954e27039f40c09c41b2b2488550
