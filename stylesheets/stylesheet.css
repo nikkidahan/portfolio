@@ -316,18 +316,10 @@ top:120px;
   }
   
   .tint:hover:before  {
-<<<<<<< HEAD
-  	  background:rgba(225,225,225,.5);
-
-  }
-  
-  
-=======
 	background:rgb(225,225,225);
 	background:rgba(225,225,225,.5);
 }
 
->>>>>>> b33c64735cbe5069da633806b4bc01b7000cd12f
   /*arrow*/
        .arrow
         {
