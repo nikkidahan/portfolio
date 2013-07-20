@@ -45,7 +45,7 @@
 		font-family:"raleway";
         	color:#2961b5;
         	position:relative;
-        	left:100px;
+        	left:200px;
         	font-size:30px;
 		font-weight:100;
 		margin-top:-15px;
@@ -156,6 +156,8 @@
   	{
   		display:inline;
   		margin:10px;
+  		width:250px;
+  		height:250px;
   	}
 	div.img a:hover img
   	{
@@ -314,11 +316,18 @@ top:120px;
   }
   
   .tint:hover:before  {
+<<<<<<< HEAD
   	  background:rgba(225,225,225,.5);
 
   }
   
   
+=======
+	background:rgb(225,225,225);
+	background:rgba(225,225,225,.5);
+}
+
+>>>>>>> b33c64735cbe5069da633806b4bc01b7000cd12f
   /*arrow*/
        .arrow
         {

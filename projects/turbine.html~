@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+    <head>
     	<link href='http://fonts.googleapis.com/css?family=Lato|Raleway:400,100,200,300,700|Oxygen:700,400,300' rel='stylesheet' type='text/css'> 	
         <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css">
         <link rel="stylesheet" type="text/css" href="../stylesheets/proj.css">   
@@ -15,42 +15,29 @@
      		<a target=_self href="../resume.html">resume</a>  |   
     		<a target=_self href="../awards.html">awards</a>  |   
     		<a target=_self href="../contact.html">contact me</a>
-    	</a1>
-    	
-    	<h2 style="border-bottom:1px solid #000;">tufts hybrid racing team</h2>
-
+    	</a1>  
+    	<h2 style="border-bottom:1px solid #000;">wind turbine project
+    		<div class ="arrow">
+    		<a href="confessions.html"><img src="http://i878.photobucket.com/albums/ab347/screenameofnikki/arrow_left.png" onmouseover="this.src='http://i878.photobucket.com/albums/ab347/screenameofnikki/arrow_left_orange.png'" onmouseout="this.src='http://i878.photobucket.com/albums/ab347/screenameofnikki/arrow_left.png'" /></a>
+    		<a href="devtech.html"><img src="http://i878.photobucket.com/albums/ab347/screenameofnikki/arrow_right.png" onmouseover="this.src='http://i878.photobucket.com/albums/ab347/screenameofnikki/arrow_right_orange.png'" onmouseout="this.src='http://i878.photobucket.com/albums/ab347/screenameofnikki/arrow_right.png'" /></a>
+    		</div>
+    	</h2>
+	
 	<p class="two">
-
-		The Tufts Hybrid Racing Team (THR) is a student run organization in the Tufts School of Engineering. 
-		Each year, we design and build a hybrid race car to compete in the <a target=_blank href="http://www.formula-hybrid.org/">
-		Formula Hybrid&trade; International Student Competition</a>.
-		<br>
+ 		Back in high school, I built a fully functioning wind turbine. 
+		This project was sponsored by the University of Vermont College 
+		of Engineering.The goal was to build a sustainable energy resource. 
+		My team chose to build a wind turbine because we considered it 
+		to be one of the most realistic energy resources for the future.
+ 		We created multiple designs for the blades and tested many materials 
+		in order to determine which combination produced the most energy.
 	</p>
- 		<img style ="margin:10px;" src="http://i878.photobucket.com/albums/ab347/screenameofnikki/Portfolio/THR13.jpg" alt="THR13">  
-		<img style ="margin:10px;" src="http://i878.photobucket.com/albums/ab347/screenameofnikki/Portfolio/Whiteboard.jpg" alt="whiteboard"> 
-		<br>
-	<p class="two">
-		I am in charge of designing and implementing the driver interface. The driver interface incorporates 
-		many different aspects of human factors, such as Gestaltism, anthropometrics, Fitt's Law, Hick's Law, etc. 
-		Each of these theories are critical in limiting the cognitive load on the driver. In addition, if the 
-		driver wastes seconds while using the interface, not only could our competitors pass us with ease, 
-		but our driver could also be in danger of crashing.
-		<br>
- 	</p>
-		<img style ="margin:10px;" src="http://i878.photobucket.com/albums/ab347/screenameofnikki/Portfolio/Cutting.jpg" alt="cutting">  
-		<img style ="margin:10px;" src="http://i878.photobucket.com/albums/ab347/screenameofnikki/Portfolio/Chassis.jpg" alt="Chassis"> 
-		<br>
-	<p class="two">
-		I am also designing an ergonomic chassis.The ergonomic chassis incorporates biomechanics, anthropometry, 
-		kinesiology and mechanical engineering to optimize the driver's position. This way, he can fluidly use 
-		all the controls without restricted or excessive movement, so he makes no unnecessary movements which 
-		could waste time and cause danger for him or other drivers.
-		<br>
+		<img src="http://i878.photobucket.com/albums/ab347/screenameofnikki/6255_110153379466_6269869_n.jpg" alt="Wind Turbine Competition">
+		<img src="http://i878.photobucket.com/albums/ab347/screenameofnikki/Portfolio/contraption.jpg" alt="Building">
+	<p class ="two">
+		After completing our wind turbine, we presented our results to the judges, and our team won the
+		<a target=_self href="../awards.html"><b>"Best Analysis Award!" </b></a>
+
 	</p>
-		<img style ="margin:10px;" src="http://i878.photobucket.com/albums/ab347/screenameofnikki/Portfolio/Car.jpg" alt="chassis"> 
-		<img style ="margin:10px;" src="http://i878.photobucket.com/albums/ab347/screenameofnikki/Portfolio/Finished.jpg" alt="chassis2"> 
-
-
-
 </body>
 </html>
