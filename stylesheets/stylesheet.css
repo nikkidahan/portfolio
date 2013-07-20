@@ -317,3 +317,19 @@ top:120px;
 	background:rgb(225,225,225);
 	background:rgba(225,225,225,.5);
 }
+
+  /*arrow*/
+       .arrow
+        {
+        	display:inline;
+        }
+        .arrow img
+        {
+        	height:32px;
+        	width:32px;
+        }
+        .arrow img:hover
+        {
+        	height:32px;
+        	width:32px;
+        }
