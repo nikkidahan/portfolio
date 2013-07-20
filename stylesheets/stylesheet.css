@@ -322,6 +322,8 @@ top:120px;
        .arrow
         {
         	display:inline;
+        	position:absolute;
+        	left: 550px;
         }
         .arrow img
         {
