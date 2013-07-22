@@ -304,6 +304,14 @@ width: 900px;
     cursor: pointer;
   }
   
+  .ie8  .tint {
+    position: relative;
+    float: left;
+    margin-right:-5px;
+	margin-left:20px;
+	margin-top:-10px;
+    cursor: pointer;
+  }
   .tint:before {
     content: "";
 
