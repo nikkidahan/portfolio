@@ -265,14 +265,14 @@
     
 /*projects*/
 
-h9 { 
+.h9 { 
    position: relative; 
 bottom:-5px;
 left:0px;
 
 }
 
-h9 span { 
+.h9 span { 
    color: black; 
    font-family: oxygen, Sans-Serif; 
    letter-spacing: -.2px;  
