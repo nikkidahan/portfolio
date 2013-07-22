@@ -3,6 +3,11 @@
 		overflow-x: hidden;    	    	
 		background-color:#ffffff;
     	}
+    	.ie8 body
+    	{
+    			background-color:#000;
+
+    	}
     	h1
     	{
     	    	font-family:"raleway";
