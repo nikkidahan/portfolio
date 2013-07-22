@@ -119,7 +119,7 @@
     		left:0px;
 		text-align:center
 	}
-	a1
+	.a1
     	{
         	font-family:"raleway";
 		font-size: 17px;
@@ -127,7 +127,7 @@
         	left: 45px;
         	top: 20px;
     	}	
-    	a2
+    	.a2
     	{
         	font-family:"raleway";
         	color:#2961b5;
