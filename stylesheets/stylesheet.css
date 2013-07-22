@@ -3,11 +3,6 @@
 		overflow-x: hidden;    	    	
 		background-color:#ffffff;
     	}
-    	.ie8 body
-    	{
-    			background-color:#000;
-
-    	}
     	h1
     	{
     	    	font-family:"raleway";
@@ -347,7 +342,8 @@ width: 900px;
 
 	background:rgba(225,225,225,.5);
 }
-.ie8 .tint:hover:before{
+
+.ie8 .tint:hover{
 filter:alpha(opacity=50);
 }
 
