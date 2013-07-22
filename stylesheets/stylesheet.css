@@ -284,13 +284,12 @@ left:0px;
 
 .wrap {
 
-position:absolute;
-left:70px;
-top:120px;
+	position:relative;
+	top:-40px;
+	left:-40px;
 
-    width: 1064px;
-
-    margin: 0 auto;
+	width: 900px;
+	margin: 0 auto;
    }
 
   .tint {
