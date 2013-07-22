@@ -143,6 +143,7 @@
     	a:visited {color:#778899;text-decoration:none;} 
     	a:hover {color:#FF6633;text-decoration:none;}   
     	a:active {color:#0000FF;text-decoration:none;}  
+    	img { border: none; }
 
 /*img*/	
 	div.img
