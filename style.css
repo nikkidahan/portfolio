@@ -1647,7 +1647,7 @@
 /*	==================================================
 	# Miscellaneaus
 	================================================== */
-	.tooltip-inner {
+.tooltip-inner {
 		-webkit-border-radius: 0px;
 		-moz-border-radius: 0px;
 		border-radius: 0px;
@@ -1713,7 +1713,7 @@
 		display: none;
 	}
 	#mobile-navigation {
-	   display: block;
+		display: block;
 		margin: 0;
 		width: 100%;
 		padding: 5px;
@@ -1861,21 +1861,11 @@
 	}
 	.overlay-content h2{
 		font-size: 40px;
-		margin: -90px 0 0 0;
-         position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%) 
+		margin: 30px 0 0 0;
 	}
 	.overlay-content h3{
 		font-size: 21px;
-		margin: -60px 0;
-         position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%) 
+		margin: 10px 0;
 	}
 	#resume{
 		height: 768px!important;
