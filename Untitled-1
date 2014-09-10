@@ -1,0 +1,36 @@
+leftovers
+<div class="item research">
+              <div class="project_items"><!--start project items here -->
+                <div class="item-thumb">
+                 <a href="projects-tufts-confessions.html">
+                  <div class="back">
+                   <h3>View Project</h3>
+                    </div>
+                    </a>
+                  <img src="assets/img/project_img05.jpg " /> </div>
+                <h4>Tufts Confessions</h4>
+              </div>
+              <!-- end project items here --> 
+              
+            </div>
+            <div class="item activities">
+              <div class="project_items"><!--start project items here -->
+                <div class="item-thumb">
+                 <a href="projects-central-america-service-trip.html">
+                  <div class="back">
+                   <h3>View Project</h3>
+                    </div>
+                    </a>
+                  <img src="assets/img/project_img08.jpg " /> </div>
+                <h4>Central America Service Trip</h4>
+              </div>
+              <!-- end project items here --> 
+              
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <!-- end project itemsholder here --> 
+      
+      <a target="_blank" href="http://www.redhat.com"><img style = "height:16px; width: 16px;position:relative; top:-3px;" src= "assets/img/redhat-favicon.ico"/></a>
