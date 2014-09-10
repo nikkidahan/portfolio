@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    	<link href='http://fonts.googleapis.com/css?family=Lato|Raleway:400,100,200,300,700|Oxygen:700,400,300' rel='stylesheet' type='text/css'> 	
+        <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css">
+<<<<<<< HEAD
+=======
+        <link rel="stylesheet" type="text/css" href="../stylesheets/proj.css">
+
+>>>>>>> b33c64735cbe5069da633806b4bc01b7000cd12f
+        <link href="data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAlXYjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAAEBAQAAAAAAAAEBAQAAAAABAQEAAAAAAAABAQEAAAAAAQEBAAAAAAAAAQEBAAAAAAEBAQAAAAAAAAEBAQAAAAABAQEAAAAAAAABAQEAAAAAAQEBAAAAAAAAAQEBAAAAAAEBAQAAAAAAAAEBAQEAAAEBAQEAAAAAAAABAQEBAQEBAQEAAAAAAAAAAQEAAQEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAD//wAA//8AAOPHAADjxwAA48cAAOPHAADjxwAA48cAAOPHAADhhwAA4A8AAOQfAAD//wAA//8AAP//AAA=" rel="icon" type="image/x-icon" />
+        <title> Nikki Dahan </title>
+
+</head>
+<body>
+   	<a1>
+		<a target=_self href="../home.html">home </a>  |   
+		<a target=_self href="../projects.html">projects</a> |
+     		<a target=_self href="../resume.html">resume</a>  |   
+    		<a target=_self href="../awards.html">awards</a>  |   
+    		<a target=_self href="../contact.html">contact me</a>
+    	</a1>
+    	<h2 style="border-bottom:1px solid #000;">tufts confessions
+    		<div class ="arrow">
+    		<a href="make.html"><img src="http://i878.photobucket.com/albums/ab347/screenameofnikki/arrow_left.png" onmouseover="this.src='http://i878.photobucket.com/albums/ab347/screenameofnikki/arrow_left_orange.png'" onmouseout="this.src='http://i878.photobucket.com/albums/ab347/screenameofnikki/arrow_left.png'" /></a>
+    		<a href="turbine.html"><img src="http://i878.photobucket.com/albums/ab347/screenameofnikki/arrow_right.png" onmouseover="this.src='http://i878.photobucket.com/albums/ab347/screenameofnikki/arrow_right_orange.png'" onmouseout="this.src='http://i878.photobucket.com/albums/ab347/screenameofnikki/arrow_right.png'" /></a>
+    		</div>
+    	</h2>
+
+	<p class="two">
+
+		During my sophomore year, I founded Tufts Confessions. Tufts Confessions offers 
+		the Tufts community a confidential resource. After submitting a completely anonymous 
+		confession, the confessions are displayed on the web page for all to see or comment on. 
+		Some students have hilarious confessions about what they did last weekend, while 
+		others have more serious confessions, such as sexual assault, depression, eating disorders 
+		or loneliness. I was very pleased to see the overwhelming support for the students suffering 
+		from these issues. Many students posted comments to these confessions offering help or support, 
+		while others went as far to make an email account for anyone who needed help. Others offered many
+		resources for those struggling with sexual assault or mood disorders. In the following weeks, 
+		we received many confessions from students stating that they had previously struggled with 
+		these issues, but after seeing the support from their fellow Jumbos, they were confident enough 
+		to seek professional help. Maybe Tufts Confessions supplies hearty laughs to thousands of 
+		people each day, but providing students with the courage to seek help when they need it 
+		is by far its greatest gift.
+		<br><br>
+</p>
+		<div class="img">
+
+			<a href="http://www.tuftsdaily.com/news/tufts-confessions-creator-explains-new-page-1.2812423#.UbooVtcam00">
+				<img src="https://si0.twimg.com/profile_images/669711249/Tufts_Daily_-_Facebook.jpg" title="Tufts Daily" /></a>
+    			<a href="http://www.insidehighered.com/news/2013/02/26/college-confession-and-makeout-pages-raise-privacy-anonymity-issues">
+				<img src="http://www.insidehighered.com/sites/all/themes/ihecustom/images/facebook_icon_large.jpg" title="Inside Higher Ed" height="250" width ="250"/></a>
+
+		</div>
+
+	<p class = "two">
+ 		Currently, I lead an 18 student team to comb through each confession submitted, to 
+		make sure no confessions get posted that insult another student. The page was 
+		featured in the Tufts Daily, Inside Higher Ed and HerCampus Tufts. 
+		The page peaked at 59,000 page views, 2,200 interactive users and 1,500 subscribers. 
+		<br>
+ </p>
+		<div class = "herc">
+ 			<div class ="img">
+ 				<a href="http://www.hercampus.com/school/tufts/nikki-dahan-15">
+					<img src="http://communication.cos.ucf.edu/main/wp-content/uploads/2012/07/Her-Campus-logo.jpg" alt="paper"> 
+			</div>
+		</div>	
+		<h5>read my interview with HerCampus Tufts!</h5>
+		<br>
+
+	
+
+
+</body>
+</html>
