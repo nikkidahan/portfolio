@@ -1,0 +1,62 @@
+/* ----------------------------------------------------------------------------------
+   # Created by: ThemeShifters
+   # Date: June 21, 2013
+   # Website: http://themeshifters.com
+   # Multi Page Stylesheet for Omni HTML Theme that is being sold on ThemeForest
+   # Version: 1.1
+   ---------------------------------------------------------------------------------- */
+  
+/*	==================================================
+	# Main Navigation
+	================================================== */
+	.main-nav {
+		height: auto;
+		background: none;
+	}
+	.main-nav li {
+		line-height: inherit;
+	}
+	.main-nav .nav > li > a:hover,
+	.main-nav .nav > li > a:focus,
+	.main-nav .nav > li.current-menu-item > a {
+		color: #03ddfd;
+	}
+	
+	/* Since v1.1 */
+	.main-nav ul li > ul {
+		position: absolute;
+		z-index: 100;
+		width: 170px;
+		text-align: left;
+		background: #000;
+		padding-top: 18px;
+		display: none;
+	}
+	.main-nav ul li:hover > ul {
+		display: block;
+	}
+	.main-nav ul li > ul > li {
+		float: none;
+		display: block;
+	}
+	.main-nav ul li > ul > li > a {
+		padding: 10px 15px;
+		display: block;
+	}
+	.main-nav ul li > ul > li > a:hover {
+		color: #00bba6;
+	}
+	/* End Since v1.1 */
+	
+	/* Since v1.2 */
+	.main-nav ul li > ul li {
+		position: relative;
+	}
+	.main-nav ul li > ul li > ul {
+		margin-left: 170px;
+		position: absolute;
+		padding-top: 0px;
+		top: 0px;
+	}
+	/* End Since v1.2 */
+
