@@ -1937,7 +1937,7 @@
 		font-size: 24px;
 		line-height: 28px;
 	}
-	.profile_pic {background:url(assets_old/img/profile.png) no-repeat; background-size: 50%;}
+	.profile_pic {background:url(assets_old/img/profile.png) no-repeat; background-size: 480px auto;}
 	}
 	@media screen and (max-width: 580px){
 	#portfolio_list {
