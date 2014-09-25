@@ -1980,7 +1980,7 @@
 	.project_text p{
 		text-align: center!important;
 	}
-	.profile_pic {background:url(assets_old/img/profile.png) no-repeat; background-size: 60%;}
+	.profile_pic {background:url(assets_old/img/profile.png) no-repeat; background-size: cover;}
 	}
 	@media screen and (max-width: 520px){
 	.home-type .overlay .overlay-content{
@@ -2023,7 +2023,7 @@
 	#content{
 		padding: 90px 0 30px;
 	}
-	.profile_pic {background:url(assets_old/img/profile.png) no-repeat; background-size: 50%;}
+	.profile_pic {background:url(assets_old/img/profile.png) no-repeat; background-size: cover;}
 
 	}
 	@media screen and (max-width: 479px){
@@ -2070,7 +2070,7 @@
 	.form-section{
 		max-width: 330px;
 	}
-	.profile_pic {background:url(assets_old/img/profile.png) no-repeat; background-size: 40%;}
+	.profile_pic {background:url(assets_old/img/profile.png) no-repeat; background-size: cover;}
 	}
 	@media screen and (max-width: 400px){
 	.tiled-items .overlay{
@@ -2106,7 +2106,7 @@
 	#resume{
 		height: 488px!important;
 	}
-	.profile_pic {background:url(assets_old/img/profile.png) no-repeat; background-size: 30%;}
+	.profile_pic {background:url(assets_old/img/profile.png) no-repeat; background-size: cover;}
 	}
 	@media screen and (max-width: 350px){
 	.tiled-items .overlay{
@@ -2132,5 +2132,5 @@
 		text-align: center;
 		margin-left: 10px;
 	}
-	.profile_pic {background:url(assets_old/img/profile5.png) no-repeat; background-size: 20%;}
+	.profile_pic {background:url(assets_old/img/profile5.png) no-repeat; background-size: cover;}
 	}
