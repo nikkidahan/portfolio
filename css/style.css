@@ -633,7 +633,7 @@
 	}
 	.project_text .center{
 		float: center;
-		width: 960px;
+		width: 100%;
 		height: auto;
         margin: 0 0 2% 0;
         border-style: solid;
