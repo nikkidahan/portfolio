@@ -15,7 +15,10 @@
 
 
 jQuery(document).ready(function($) {
-	
+		if($.browser.mobile) {
+			$(".parallax").hide();
+			$(".overlay-content *").css("margin-left", "0px");
+		}
 	
 	/*	==================================================
 		# One Page Navigation
