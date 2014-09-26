@@ -37,12 +37,14 @@
 	# Miscellaneaus
 	# Media Queries
 */
+	
 
 /*	==================================================
 	# Default
 	================================================== */
 	body {
 		font-weight:300;
+		background-color:#F7F7F9 !important;
 	}
 	a:focus {
 		outline: 0px;

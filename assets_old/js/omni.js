@@ -40,11 +40,33 @@ jQuery(document).ready(function($) {
 		});
 		
 		$('.nav-link').each(function(){
-      var $href = $(this).attr('href');
-      $(this).click(function(){
-            window.location = $href;
-      });
-})
+	      var $href = $(this).attr('href');
+	      $(this).click(function(){
+	            window.location = $href;
+	      });
+		});
+
+		if ($(window).width() <= 1100){	
+			// set parallax to be percentage
+			$(".parallax").css("background-size", "100%");
+			$(".parallax").css("background-position", "center");
+		} else {
+			//set parallax to be fixed
+			$(".parallax").css("background-size", "1100px");
+			$(".parallax").css("background-position", "center");
+		}
+
+		 $( window ).resize(function() {
+			if ($(window).width() <= 1100){	
+				// set parallax to be percentage
+				$(".parallax").css("background-size", "100%");
+				$(".parallax").css("background-position", "center");
+			} else {
+				//set parallax to be fixed
+				$(".parallax").css("background-size", "1100px");
+				$(".parallax").css("background-position", "center");
+			}
+		});
 	
 	/*	==================================================
 		# Scroll To
@@ -403,9 +425,10 @@ jQuery(document).ready(function($) {
 		// check grid size on resize event
 		$window.resize(function()
 		{
+			console.log("REsigin");
 			var gridSize = getGridSize();
 			
-			if(flexslider_testimonials)
+			if(flexslider_testimonial)
 			{
 				flexslider_testimonials.vars.minItems = gridSize;
 				flexslider_testimonials.vars.maxItems = gridSize;
@@ -426,6 +449,7 @@ jQuery(document).ready(function($) {
 			}
 		});
 	}
+
 
 
 /*	==================================================
