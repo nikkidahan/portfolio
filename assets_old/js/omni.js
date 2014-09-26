@@ -17,7 +17,9 @@
 jQuery(document).ready(function($) {
 		if($.browser.mobile) {
 			$(".parallax").hide();
-			$(".overlay-content *").css("margin-left", "0px");
+			$(".overlay-content *").css("margin", "auto").css("margin-right", "auto").css("color", "white");
+			$(".overlay-content").css("margin-left", "auto").css("margin-right", "auto");
+			$(".overlay").css("background", "#03DDFD");
 		}
 	
 	/*	==================================================
