@@ -46,26 +46,23 @@ jQuery(document).ready(function($) {
 	      });
 		});
 
-		if ($(window).width() <= 1100){	
+		function checkParallaxSize() {
+			if ($(window).width() <= 1170){	
 			// set parallax to be percentage
 			$(".parallax").css("background-size", "100%");
 			$(".parallax").css("background-position", "center");
-		} else {
-			//set parallax to be fixed
-			$(".parallax").css("background-size", "1100px");
-			$(".parallax").css("background-position", "center");
-		}
-
-		 $( window ).resize(function() {
-			if ($(window).width() <= 1100){	
-				// set parallax to be percentage
-				$(".parallax").css("background-size", "100%");
-				$(".parallax").css("background-position", "center");
 			} else {
 				//set parallax to be fixed
-				$(".parallax").css("background-size", "1100px");
+				$(".parallax").css("background-size", "1170px");
 				$(".parallax").css("background-position", "center");
 			}
+		}
+
+		checkParallaxSize();
+
+
+		 $( window ).resize(function() {
+			checkParallaxSize();
 		});
 	
 	/*	==================================================
