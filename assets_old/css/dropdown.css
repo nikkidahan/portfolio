@@ -38,7 +38,7 @@
   top: 0;
   left: 0;
   height: 3px;
-  background: #03ddfd;
+  background: #e99287;
   -webkit-transition: all 0.25s ease-out;
   -moz-transition: all 0.25s ease-out;
   -ms-transition: all 0.25s ease-out;
@@ -80,7 +80,7 @@
 #cssmenu > ul > li:hover > a,
 #cssmenu > ul > li.active > a {
   color: #ffffff;
-    background: #03ddfd;
+    background: #e99287;
 }
 #cssmenu > ul > li.has-sub > a {
   padding-right: 25px;
@@ -106,7 +106,7 @@
   transition: border-color 0.2s ease;
 }
 #cssmenu > ul > li.has-sub:hover > a::after {
-  border-color: #03ddfd;
+  border-color: #e99287;
 }
 #cssmenu ul ul {
   position: absolute;

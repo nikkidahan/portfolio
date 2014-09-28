@@ -20,7 +20,7 @@ jQuery(document).ready(function($) {
 			$(".overlay-content h2").css("margin-top", "150px");
 			$(".overlay-content *").css("margin-left", "auto").css("margin-right", "auto").css("color", "white").css("font-weight", "bold");
 			$(".overlay-content").css("margin-left", "auto").css("margin-right", "auto");
-			$(".overlay").css("background", "#03DDFD");
+			$(".overlay").css("background", "#e99287");
 		}
 	
 	/*	==================================================
