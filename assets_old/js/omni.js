@@ -1,10 +1,4 @@
-/*
- *
- *		Omni v1.2 - omni.js
- *		Custom JavaScript and jQuery scripts for Omni HTML Theme that is being sold on ThemeForest.
- *		Multi Page VERSION		
- *
- */
+
 
 
 	/*	==================================================
