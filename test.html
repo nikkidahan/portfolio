@@ -65,23 +65,21 @@
 
 	</script>
 	<style>
-         iframe {
-        max-width: 100%;
-}
-        .video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 35px;
-    height: 0;
-    overflow: hidden;
-}
-       
-        .video-container iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+ .myIframe {
+position: relative;
+padding-bottom: 65.25%;
+padding-top: 30px;
+height: 0;
+overflow: auto; 
+-webkit-overflow-scrolling:touch; //<<--- THIS IS THE KEY 
+border: solid black 1px;
+} 
+.myIframe iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 }
       </style>
   </head>
@@ -121,7 +119,8 @@
     <p style="text-align:left">
     While studying in <a href="http://www.disabroad.org/" target="_blank">Copenhagen, Denmark</a> for a semester, I was asked to solve a problem: Danish students often feel overwhelmed and unprepared when studying abroad in the United States. See below for a video demonstration of the experience we designed to solve this problem.  </p>
       
-        <iframe src="//player.vimeo.com/video/98871163" frameborder="0" style webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <div class='myIframe' > 
+        <iframe src="//player.vimeo.com/video/98871163" frameborder="0" style webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
    
     <br />
     <br />
