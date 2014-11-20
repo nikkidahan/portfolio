@@ -696,20 +696,28 @@
 		text-align: center;
 		font-size: 17px;
 		line-height: 145%;
-		margin: 20px 0 0;
+		margin: 20px 0 -7px;
 		color:#e99287;
 		font-weight:700;
 	}
 	awards p{
 		font-size: 18px;
-		line-height:14px;
+		line-height:10px;
 	}
 	awards a{
 		text-align: center;
 		font-size: 15px;
 		text-align: center;
-		color: #000;
-		display: block;
+		color: #e99287;
+		display: inline;
+		margin: 0 auto;
+	}
+    awards a:hover{
+		text-align: center;
+		font-size: 15px;
+		text-align: center;
+		color: #e99287;
+		display: inline;
 		margin: 0 auto;
 	}
 	.item-thumb .back{
