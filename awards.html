@@ -37,8 +37,15 @@
 	  Shadowbox.init({});
 	</script>
 	
+      <style>
+      lilgray{
+          color:#B0B1B1; 
+          font-size:14px; 
+      }
+          
+      </style>
 	<!-- Google Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Montserrat|Roboto:300,300italic,400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat|Roboto:300,300italic,400,400italic,500, 600, 700,700italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
     <!-- Just for debugging purposes. -->
@@ -101,39 +108,61 @@
     <div class="row">
     <h1>Awards</h1>
     <awards>
+        <h3>Best Student Tech Startup in Boston</h3>
+        <p> <lilgray>MIT Enterprise Forum</lilgray></p>
+        <p>Presented for Downtyme mobile app.</p>
+        <p>Serve as designer.</p><br>
+
+        
+        <h3>Seed Funding</h3>
+        <p><lilgray>Rough Draft Ventures</lilgray></p>
+        <p>Presented for Downtyme.</p>
+        <p>Serve as designer.</p><br>
+        
+        <h3>21 Tech Products That Teens Love</h3>
+            <p><lilgray>Business Insider</lilgray></p>
+        <p>Presented for Downtyme.</p>
+        <p>Serve as designer.</p><br>
+        
             <h3>Tufts Hackathon Best App Award</h3>
-            <p>Facebook Inc.</p>
-        <p>Presented for web based application that ranks reviews in order of reviewer's similarity to reader (using <a href="http://en.wikipedia.org/wiki/Watson_(computer)" target="_blank" style="color: #e99287; display: inline;"> IBM Watson</a>).</p>
+            <p><lilgray>Facebook Inc.</lilgray></p>
+        <p>Presented for web based application that ranks reviews in order of reviewer's similarity to reader (using <a href="http://en.wikipedia.org/wiki/Watson_(computer)" target="_blank" > IBM Watson</a>).</p>
         <p>Served as designer and front end developer.</p><br>
         
             <h3>The House of Representatives Award for ''Outstanding Accomplishments''</h3>
-            <p>State Representative Jay Kaufman</p><br>
+            <p><lilgray>State Representative Jay Kaufman</lilgray></p><br>
+        
             <h3>''Campus Celebrity''</h3>
-            <p>HerCampus Tufts</p>
-            <a href="http://www.hercampus.com/school/tufts/nikki-dahan-15" target="_blank" style="color: #e99287;"> <!--temp--> 
-            See interview here! </a><br>
+            <p><lilgray>HerCampus Tufts</lilgray></p><p>
+            <a href="http://www.hercampus.com/school/tufts/nikki-dahan-15" target="_blank"> 
+            See interview here! </a></p><br>
+        
             <h3>The Global Challenge Award for Exemplary Demonstration</h3>
-            <p>Renewable Nations™ Institute</p>
+            <p><lilgray>Renewable Nations™ Institute</lilgray></p>
             <p>Presented for wind turbine project modeled after flight patterns of hummingbirds.</p><br>
+        
             <h3>Best Analysis Award for Wind Turbine Project</h3>
-            <p>University of Vermont College of Engineering</p><br>
+            <p><lilgray>University of Vermont College of Engineering</lilgray></p><br>
+        
             <h3>Finalist for Anti-Smoking Public Service Announcement</h3>
-            <p>The Boston Channel - WCVB 5</p><br>
+            <p><lilgray>The Boston Channel - WCVB 5</lilgray></p><br>
+        
             <h3>National Honor Society, Lexington Chapter</h3>
-            <p>Lexington Public Schools</p><br>
+            <p><lilgray>Lexington Public Schools</lilgray></p><br>
+        
             <h3>Superlative Award for ''Funniest Girl in School''</h3>
-            <p>Lexington Public Schools</p>
+            <p><lilgray>Lexington Public Schools</lilgray></p>
             <br><br>
     
     
             <h1>Scholarships</h1>
-            <p>Stanley Z. Koplik Certificate of Mastery with Distinction</p>
-            <p>Josiah Willard Hayden Scholarship</p>
-            <p>Parent Teacher Association Scholarship</p>
-            <p>Lexington Rotary Club Scholarship</p>
-            <p>Jason Berger Memorial Scholarship</p>
-            <p>Anna Regina McGrath Memorial Scholarship</p>
-            <p>John and Abigail Adams Scholarship</p>
+            <p><lilgray>Stanley Z. Koplik Certificate of Mastery with Distinction</lilgray></p>
+            <p><lilgray>Josiah Willard Hayden Scholarship</lilgray></p>
+            <p><lilgray>Parent Teacher Association Scholarship</lilgray></p>
+            <p><lilgray>Lexington Rotary Club Scholarship</lilgray></p>
+            <p><lilgray>Jason Berger Memorial Scholarship</lilgray></p>
+            <p><lilgray>Anna Regina McGrath Memorial Scholarship</lilgray></p>
+            <p><lilgray>John and Abigail Adams Scholarship</lilgray></p>
             <br><br>
         </awards>
     </div>
@@ -155,8 +184,8 @@
 			  <ul id="portfolio_list">
 				<li><a href="#" data-filter="*">All</a></li>
 				<li><a href="#" data-filter=".work_experience">Work Experience</a></li>
-				<li><a href="#" data-filter=".research">Research</a></li>
-				<li><a href="#" data-filter=".activities">Activities</a></li>
+				<li><a href="#" data-filter=".software">Software</a></li>
+				<li><a href="#" data-filter=".physical">Physical</a></li>
 				
 				<div class="clear"></div>
 			  </ul>
@@ -165,7 +194,7 @@
               
 			<div id="project_itemsholder">
 			  <div class="portfolio-items clearfix">
-				<div class="item work_experience">
+				<div class="item work_experience software">
 				  <div class="project_items">
 					<div class="item-thumb">
 					 <a href="projects-microsoft.html">
@@ -178,7 +207,7 @@
 				  </div>
 
 				</div>
-				<div class="item work_experience">
+				<div class="item work_experience software">
 				  <div class="project_items">
 					<div class="item-thumb">
 					<a href="projects-redhat.html">
@@ -191,33 +220,33 @@
 				  </div>
 
 				</div>
-				<div class="item research">
-				  <div class="project_items">
-					<div class="item-thumb">
-					<a href="projects-mitmedia.html">
-					  <div class="back">
-					   <h3>View Project</h3>
-					   </div>
-					   </a>
-					  <img style="border-style: solid; border-width: 1px; border-color: #E8E8E8;" src="assets_old/img/MITMedia3.jpg" /> </div>
-					<h4>MIT Media Lab</h4>
-				  </div>
-</div>
-				  <div class="item activities">
+				<div class="item software">
 				  <div class="project_items">
 					<div class="item-thumb">
 					<a href="projects-downtyme.html">
 					  <div class="back">
 					   <h3>View Project</h3>
+					   </div>
+					   </a>
+					  <img src="assets_old/img/downtyme.png" style="width:240px; margin-left:33px"/> </div>
+					<h4>Downtyme Mobile App</h4>
+				  </div>
+</div>
+				  <div class="item physical">
+				  <div class="project_items">
+					<div class="item-thumb">
+					<a href="projects-mitmedia.html">
+					  <div class="back">
+					   <h3>View Project</h3>
 					  </div>
 					  </a>
-					  <img src="assets_old/img/downtyme.jpg" /> </div>
-					<h4>Downtyme Mobile App</h4>
+					  <img style="border-style: solid; border-width: 1px; border-color: #E8E8E8;" src="assets_old/img/MITMedia3.jpg" /> </div>
+					<h4>MIT Media Lab</h4>
 				  </div>
 
 				  
 				</div>
-				<div class="item activities">
+				<div class="item software">
 				  <div class="project_items">
 					<div class="item-thumb">
 					 <a href="darwin.html">
@@ -226,11 +255,11 @@
 					  </div>
 					  </a>
 					  <img src="assets_old/img/index2.png" /> </div>
-					<h4>Darwin Course Selection</h4>
+					<h4>Tufts Hackathon</h4>
 				  </div>
 
 				</div>
-				<div class="item activities">
+				<div class="item work_experience software physical">
 				  <div class="project_items">
 					<div class="item-thumb">
 					<a href="projects-mitre.html">
@@ -241,8 +270,9 @@
 					  <img src="assets_old/img/mitre.jpg" /> </div>
 					<h4>MITRE Human Factors Intern</h4>
 				  </div>
+                    
 				</div>
-				  <div class="item activities">
+				  <div class="item software">
 				  <div class="project_items">
 					<div class="item-thumb">
 					<a href="projects-graphic-design.html">
@@ -256,7 +286,7 @@
 
 				  
 				</div>
-				<div class="item activities">
+				<div class="item physical">
 				  <div class="project_items">
 					<div class="item-thumb">
 					 <a href="projects-tufts-make-team.html">
@@ -269,7 +299,7 @@
 				  </div>
 
 				</div>
-				<div class="item activities">
+				<div class="item physical">
 				  <div class="project_items">
 					<div class="item-thumb">
 					<a href="projects-tufts-hybrid-racing-team.html">
@@ -283,7 +313,7 @@
 
 					
 				</div>
-				<div class="item activities">
+				<div class="item physical">
 				  <div class="project_items">
 					<div class="item-thumb">
 					<a href="projects-dulcimerdesign.html">
@@ -297,7 +327,7 @@
 
 				  
 				</div>
-				<div class="item activities">
+				<div class="item">
 				  <div class="project_items">
 					<div class="item-thumb">
 					 <a href="projects-scholarly-informat.html">
@@ -310,7 +340,7 @@
 				  </div>
 
 				</div>
-				<div class="item activities">
+				<div class="item">
 				  <div class="project_items">
 					<div class="item-thumb">
 					<a href="projects-tufts-confessions.html">
@@ -327,6 +357,7 @@
 		</div>
 	  </div>
 	</section>
+
 	
 	
 	
