@@ -694,15 +694,17 @@
 	}
 	awards h3{
 		text-align: center;
-		font-size: 17px;
+		font-size: 15px;
 		line-height: 145%;
 		margin: 20px 0 -7px;
 		color:#e99287;
-		font-weight:700;
+        text-transform: capitalize;
 	}
 	awards p{
-		font-size: 18px;
+		/*font-size: 18px;*/
 		line-height:10px;
+        color:#4A4A4A !important;
+        font-size:13px !important;
 	}
 	awards a{
 		text-align: center;
