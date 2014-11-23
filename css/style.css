@@ -59,7 +59,7 @@
 		text-decoration:none;
 	}
 	
-	#content h1{color:#e99287; font-weight:700;}
+	#content h1{color:#e99287; font-weight:700;/*font-weight:100; text-transform:lowercase;*/}
 	
 	.slogan{
 		font-size:30px;
@@ -106,6 +106,7 @@
 	}
 	.menu_right{
 		width:850px; float:right;
+        
 	}
 /*	==================================================
 	# Buttons
