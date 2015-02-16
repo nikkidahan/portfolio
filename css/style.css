@@ -632,6 +632,18 @@
         border-width: 1px;
         border-color: #424249;
     }
+   
+.project_text .smallcneter{
+		float: center;
+    		height: 50%;
+
+		width: auto;
+        margin: 0 0 2% 0;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #424249;
+    }
+   
 	.project_text p{
 		text-align: left!important;
 	}
